@@ -1,4 +1,4 @@
 [build]
 rustc-wrapper = "sccache"             
 incremental = false                   
-target-dir = "/opt/rust-target2"
+target-dir = "/opt/rust-target"
