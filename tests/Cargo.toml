@@ -1,0 +1,16 @@
+[package]
+name = "tests"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[[bin]]
+name = "my_program"
+path = "my_program.rs"
+
+[dependencies]
+anchor-lang = "0.32.1"
+anchor-client = "0.32.1"
+my-program = { version = "0.1.0", path = "../programs/my-program" }
+tokio = { version = "1.0", features = ["full"] }
+solana-sdk = "2.0"

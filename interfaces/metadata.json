@@ -1,0 +1,13 @@
+{
+  "programs": [
+    {
+      "network": "devnet",
+      "cluster": "https://api.devnet.solana.com",
+      "programId": "HzGMFQqafY25HaZJ9s3H5m8rUZzppcgeZvEhD7D7Yoyg",
+      "programName": "my-program",
+      "idlPath": "./idl/my_program.json",
+      "txHash": "3N5XHgLNFvxgYv1q9gxyrWeTQzfy2MwxWyCBkKutT5SvDut3hyywiDm22pdde13aFyeNQtiuBC4q7SSP8snMMMjp",
+      "streamed": true
+    }
+  ]
+}

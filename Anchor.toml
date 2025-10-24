@@ -1,0 +1,27 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+my_program = "HzGMFQqafY25HaZJ9s3H5m8rUZzppcgeZvEhD7D7Yoyg"
+
+[programs.devnet]
+my_program = "HzGMFQqafY25HaZJ9s3H5m8rUZzppcgeZvEhD7D7Yoyg"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "/root/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
+
+[test.validator]
+gossip_port = 8001
+rpc_port = 8899
+faucet_port = 9900
